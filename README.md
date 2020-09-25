@@ -155,6 +155,8 @@ ActiveRecord::Base.establish_connection(
 Then write some SQL to create the table:
 
 ```ruby
+
+
 sql = <<-SQL
   CREATE TABLE IF NOT EXISTS artists (
   id INTEGER PRIMARY KEY,
